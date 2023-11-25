@@ -7,3 +7,70 @@
     height: 300px;
     width: 450px;
 }
+.block_i
+{
+    border: 2px solid black;
+    text-align: center;
+}
+.block_i #heading
+{
+    font-size: 28px;
+}
+.block_i ul li
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+.block_i ul li a
+{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.block_i ul li a:hover
+{
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 14px;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 15px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    display: block;
+    width: 105px;
+    text-align: center;
+    margin-left: 40%;
+}
+a:hover
+{
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    display: block;
+    width: 105px;
+    text-align: center;
+    margin-left: 40%;
+    font-weight: bold;
+}
